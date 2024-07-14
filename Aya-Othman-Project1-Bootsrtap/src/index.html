@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Project</title>
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="headerStyle.css">
+    <link rel="stylesheet" href="details.css">
+    <link rel="stylesheet" href="variable.css">
+    <link rel="stylesheet" href="footerStyle.css">
+    <link rel="stylesheet" href="favourites.css">
+</head>
+<body class="lightMode bodyContainer">
+    <div class="mainContainer">
+        <header>
+            <div class="flex">
+                <h1 class="appTitle">Web Topics</h1>
+                <nav>
+                    <button class="btnDark" type="button">
+                        <ion-icon name="moon-outline"></ion-icon> <span class="modeText">Dark Mode</span>
+                    </button>
+                    <button class="btnFavourite" type="button">
+                        <ion-icon name="heart-outline"></ion-icon> Favourites
+                    </button>
+                </nav>
+            </div>
+            <div class="triangles">
+                <div class="triangle2"></div>
+                <div class="triangle1"></div>
+            </div>
+            <div class="Welcoming">
+                <p class="p1">Welcome to our Website</p>
+                <p class="p2">We have a new design that's fresh, modern and easy to use</p>
+            </div>
+        </header>
+        <main>
+            <div class="searchBar">
+                <div class="searchAction">
+                <form action="action_page.php"> 
+                    <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+                    <input class="searchSpace" type="text" placeholder="Search the Website..." name="search">
+                </form></div>
+                <div class="selectors">
+                    <div class="select">
+                    <div class="select-label-container">
+                    <label class="label">Sort By:</label>                                     
+                    <select name="sort_by" class="sortBy">
+                        <option value="" > Default</option>
+                        <option value="rate">Rate (Highest to Low)</option>
+                        <option value="release_date">Release Date</option>
+                    </select></div></div>
+
+                    <div class="select">
+                    <div class="select-label-container">
+                    <label class="label">Filter By:</label>                   
+                    <select name="filter_by" class="filterBy">
+                        <option value="" > Default</option>
+                        <option value="frontend">Front-end Courses</option>
+                        <option value="backend">Back-end Courses</option>
+                    </select></div></div>
+                </div>
+            </div>
+            <h2><b class="foundNumber">"24" Web Topics found</b></h2>
+            <div class="innerContainer">
+
+                
+            </div>
+        
+      </main>
+ 
+
+        <div class="favouriteContainer">
+            <h3 class="listTitle">
+                My Favourite Topics
+            </h3>
+            <div class="favouriteList">
+            </div>
+        </div> 
+
+       <div> <footer>
+            <article>Developed with <ion-icon class="heart" name="heart"></ion-icon> © 2024</article>
+        </footer></div>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" type="module"></script>
+    <script src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js" nomodule></script>
+    <script src="main.js"></script>
+</body>
+</html>

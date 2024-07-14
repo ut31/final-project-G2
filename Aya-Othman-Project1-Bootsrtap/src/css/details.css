@@ -1,0 +1,216 @@
+.courseBreaf {
+  width: 100%;
+  position: relative;
+  background-color: var(--bg_courseBreaf);
+  gap: 1rem;
+  padding-block: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.detailsArea {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg_courseBreaf);
+  max-width: 540px;
+  gap: 1rem;
+}
+
+.detailsArea h3,
+.detailsArea h4,
+.detailsArea ul {
+  padding: 0;
+  margin: 0;
+}
+
+.category {
+  color: var(--brand-secondary);
+  background-color: var(--bg_courseBreaf);
+}
+
+.cousreName {
+  color: var(--white);
+  background-color: var(--bg_courseBreaf);
+}
+
+.courseUl {
+  list-style: none;
+  display: flex;
+  padding-top: 0;
+  align-items: center;
+}
+
+.courseUl li {
+  padding-top: 0;
+}
+
+.breaf {
+  color: var(--white);
+  background-color: var(--bg_courseBreaf);
+}
+
+.topOfCard {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: var(--black);
+  background-color: var(--white);
+  gap: 8px;
+  padding: 5px;
+  margin: 0;
+}
+
+.courseArea {
+  position: relative;
+  min-width: 250px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.CardCourseArea {
+  background-color: var(--white);
+  width: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  overflow: auto;
+  text-align: left;
+}
+
+.CourseImage {
+  width: 100%;
+  height: 126px;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.CourseImage img {
+  width: 100%;
+  height: 100%;
+}
+
+.courseCard {
+  background-color: var(--white);
+  padding: 15px;
+}
+
+.favouriteBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--brand-secondary);
+  cursor: pointer;
+  margin-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.favouriteBtnDecisionContainer p:last-child {
+  font-size: 0.95rem;
+  text-align: center;
+}
+
+.favouriteBtnDecisionContainer p {
+  color: var(--black);
+}
+
+.favouriteBtnDecisionContainer p,
+.favouriteBtnDecisionContainer button {
+  padding: 0;
+  margin: 0;
+}
+
+.favouriteBtnDecisionContainer p,
+.favouriteBtnContainer {
+  margin-bottom: 8px;
+}
+
+.favouriteBtnDecisionContainer {
+  padding: 15px;
+  background-color: var(--white);
+  border: 1px solid #dddddd;
+}
+
+.addOrRemove {
+  border: none;
+  background: none;
+  background-color: var(--brand-secondary);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px;
+  cursor: pointer;
+}
+
+.emptyContainer {
+  position: relative;
+  min-width: 250px;
+  background-color: transparent;
+  z-index: -999;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg_body);
+}
+
+.subTopicsContainer {
+  background-color: var(--bg_body);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-block: 25px;
+  gap: 1rem;
+}
+
+.subTopics {
+  width: 100%;
+  max-width: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid var(--lines-color);
+  background-color: var(--bg_default);
+}
+
+.subTopics div:first-child {
+  padding: 0;
+  margin: 0;
+}
+
+.subTopic {
+  padding: 16px;
+  border-radius: 6px;
+  border-bottom: 1px solid var(--lines-color);
+}
+
+.subTopic span {
+  color: var(--body-text);
+}
+
+.checkIcon {
+  color: var(--brand-secondary);
+}
+
+.sub-topics-h4 {
+  color: var(--body-text);
+  background-color: var(--bg_default);
+  padding-inline-start: 22px;
+}
+
+.btn {
+  border: none;
+  background: none;
+  gap: 8px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
