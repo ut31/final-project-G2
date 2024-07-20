@@ -16,11 +16,12 @@
     <link rel="stylesheet" href="./css/footerStyle.css">
     <link rel="stylesheet" href="./css/headerStyle.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
-<body     class="light-mode d-flex flex-column justify-content-between min-vh-100 p-0 m-0 ">
-    <div class="mainContainer">
+<body     class="light-mode d-flex flex-column justify-content-between min-vh-100 p-0 m-0">
+    <div class="mainContainer ">
         <header>
-            <div class="flex">
+            <div class="flex p-2">
                 <h1 class="appTitle">Web Topics</h1>
                 <nav>
                     <button class="btnDark" type="button">
@@ -41,14 +42,15 @@
             </div>
         </header>
         <main>
-            <div class="searchBar">
+            <div class="searchBar d-flex align-items-center full-width rounded-lg justify-content-between p-1 m-5">
                 <div class="searchAction">
-                <form action="action_page.php"> 
+                <form class="d-flex-start align-items-center"
+                action="action_page.php"> 
                     <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
                     <input class="searchSpace" type="text" placeholder="Search the Website..." name="search">
                 </form></div>
-                <div class="selectors">
-                    <div class="select">
+                <div class="selectors d-flex rounded-lg">
+                    <div class="select d-flex flex-column justify-content-start align-items-start min-vh-15 width-100 p-1">
                     <div class="select-label-container">
                     <label class="label">Sort By:</label>                                     
                     <select name="sort_by" class="sortBy">
@@ -57,7 +59,7 @@
                         <option value="release_date">Release Date</option>
                     </select></div></div>
 
-                    <div class="select">
+                    <div class="select d-flex flex-column justify-content-start align-items-start min-vh-15 width-100">
                     <div class="select-label-container">
                     <label class="label">Filter By:</label>                   
                     <select name="filter_by" class="filterBy">
