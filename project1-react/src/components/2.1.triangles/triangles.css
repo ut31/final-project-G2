@@ -1,0 +1,26 @@
+.triangles {
+    position: relative;
+    height: 70px;
+    max-height: 100px;
+    background-color: var(--bg_default);
+}
+
+.triangle1, .triangle2 {
+    width: 100%;
+    height: 100%;
+    min-width: 60px;
+}
+
+.triangle1 {
+    clip-path: polygon(0 0, 0 100%, 80% 0);
+    background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-secondary) 100%);
+}
+
+.triangle2 {
+    position: absolute;
+    background-color: var(--brand-secondary);
+    clip-path: polygon(0 0, 100% 100%, 100% 0);
+    top: 0;
+    right: 0;
+    height: 100%;
+}

@@ -12,3 +12,7 @@ font-family: 'Nunito Sans';
 --white:white;
 --black:black;
 }
+*{
+margin: 0px;
+padding: 0px;
+}

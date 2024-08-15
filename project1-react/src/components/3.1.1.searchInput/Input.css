@@ -1,0 +1,20 @@
+form{
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.searchBtn{
+    background-color: var(--bg_default);
+    border: 0;
+    margin: 10px;
+}
+
+.searchSpace{
+    border: none;
+    background: none;
+    outline: none;
+    padding: 0;
+
+    
+}

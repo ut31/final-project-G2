@@ -1,0 +1,28 @@
+nav{
+    display: flex;
+    gap: 5px;
+    background-color: var(--bg_default);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg_default);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.darkBtn:hover{
+    background-color:   #ff9f43;
+    color: aliceblue;
+    border: 0.8px aliceblue;
+}
+.favBtn:hover{
+    color: aliceblue;
+    border: 0.8px aliceblue ;
+    background-color: var(--heart-color);
+}
+.btns{
+    display: flex;
+    gap: 5px;
+}

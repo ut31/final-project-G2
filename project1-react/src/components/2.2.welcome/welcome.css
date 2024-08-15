@@ -1,0 +1,40 @@
+.Welcoming {
+    width: auto;
+    align-items: center;
+    max-width: 600px; 
+    margin: auto; 
+    text-align: left; 
+    transform: translateY(-1rem);
+
+}
+
+.p1{
+    color: var(--brand-secondary);
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.p2 {
+    margin: 0;
+    font-size: medium;
+    color: var(--body-text);
+}
+@media screen and (max-width:600px){
+    
+
+    .p1{
+        font-size: 1rem;
+    }
+    .p2{
+        font-size: 1rem;
+
+    }
+    .Welcoming{
+        justify-content: center;
+        margin: 1rem;
+    }
+    .triangles{
+        height: 30px;
+    }
+}

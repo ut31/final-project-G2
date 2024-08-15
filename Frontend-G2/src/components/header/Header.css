@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    background: white;
+    font-size: small;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+.right-side,.topnav, form{
+    display: flex;
+    align-items: center;
+}
